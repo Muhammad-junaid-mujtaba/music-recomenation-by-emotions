@@ -5,11 +5,14 @@ An AI-powered system that detects human emotions in real-time from images and re
 🖼️ Real-Time Emotion Detection
 Detects emotions from live webcam feed or uploaded images using a pretrained CNN-based model (e.g., ResNet50 backbone with a custom classifier) with ~90% accuracy.
 
+
 🎶 Music Recommendation Based on Emotion
 Uses NLP techniques to map detected emotions to curated Bollywood and Hollywood song playlists, providing personalized music suggestions.
 
+
 💬 Simple, Intuitive Interface
 Users can upload images or use webcam for emotion detection and instantly receive song recommendations.
+
 
 🧰 Technologies Used
 Component	Framework / Library
@@ -18,15 +21,18 @@ NLP for Recommendation	NLTK, Python dictionaries / rule-based matching
 Dataset Management	Pandas, NumPy
 Web Interface	Streamlit / Gradio (optional)
 
+
 📦 Dataset Summary
 Emotion-labeled image datasets (e.g., FER2013) for training/testing the emotion classifier
 
 Curated Bollywood and Hollywood song lists categorized by emotions (happy, sad, angry, calm, etc.)
 
+
 🧠 Model Architecture
 Pretrained CNN backbone (e.g., ResNet50) for feature extraction
 
 Custom dense classification head trained to detect emotions like Happy, Sad, Angry, Surprise, Neutral, etc.
+
 
 Model achieves ~90% accuracy on standard emotion datasets
 
@@ -56,7 +62,9 @@ pip install -r requirements.txt
 bash
 Copy
 Edit
+
 streamlit run app/main.py
+
 📬 Contact
 Author: Junaid
 Email: junaidqazi705@gmail.com
